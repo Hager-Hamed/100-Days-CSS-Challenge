@@ -19,3 +19,14 @@ All you need to get started with the challenge is access <a href="https://100day
 + <strong> Day #3 - </strong> The Pyramide CSS
 
 ![day3](https://user-images.githubusercontent.com/83260908/127425249-ceb3fdfb-561b-4181-95df-4f57a1c2a2d3.gif)
+
+
++ <strong> Day #4 - </strong> Loading
+
+![day4](https://user-images.githubusercontent.com/83260908/127425248-90f95f2d-96bc-45fd-a4e7-87ee5f4ddb33.gif)
+
+
++ <strong> Day #5 - </strong> Statistic
+
+![day5](https://user-images.githubusercontent.com/83260908/127425247-666207b1-2e73-4bfb-873d-0a7e1d01a2bc.gif)
+
