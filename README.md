@@ -30,3 +30,25 @@ All you need to get started with the challenge is access <a href="https://100day
 
 ![day5](https://user-images.githubusercontent.com/83260908/127425247-666207b1-2e73-4bfb-873d-0a7e1d01a2bc.gif)
 
+
++ <strong> Day #6 - </strong> Profile
+
+![day6](https://user-images.githubusercontent.com/83260908/127426726-f5715c06-95d9-4c1e-80c1-a59ee4c662d5.gif)
+
+
++ <strong> Day #7 - </strong> Notifications, Search and Menu
+
+![day7](https://user-images.githubusercontent.com/83260908/127426720-a8637940-937a-4f10-90bb-a89add4ee2f5.gif)
+
+
++ <strong> Day #8 - </strong> Metaballs
+
+![day08](https://user-images.githubusercontent.com/83260908/127585896-8afa19c6-ab00-4840-92db-38667cf9bdd2.gif)
+
+
++ <strong> Day #9 - </strong> Rainy Night
+
+![day09](https://user-images.githubusercontent.com/83260908/127585902-77884969-93a5-4d99-83f4-7b9f52670998.gif)
+
+
+
