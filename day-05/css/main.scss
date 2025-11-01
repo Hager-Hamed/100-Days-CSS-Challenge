@@ -77,51 +77,18 @@ $blue: #7BA2FF;
 
 }
 
-// .header .big{
-// 	position:absolute;
-// 	font-weight: 600;
-// 	text-transform:uppercase;
-// 	font-size:14px;
-// }
-
-// .header .small{
-// 	position:absolute;
-// 	font-weight:400;
-// 	font-size:11px;
-// }
-
-// .header .title{
-// 	top:12px;
-// 	left:15px;
-// }
-
-// .header .data{
-// 	top:30px;
-// 	left:15px;
-// }
-
-// .header .type{
-// 	top: 12px;
-// 	left:220px;
-// }
-
-// .header .value{
-// 	top:25px;
-// 	left:200px;
-// }
-
 .parameters{
 	padding:10px 0 15px 0;
 	text-align:right;
-}
-
-.parameters span{
+	 span{
 	position:relative;
 	font-size:10px;
 	color:#606060;
 	line-height:13px;
 	padding:0 10px 0 25px;
 }
+}
+
 
 .red-parameter::before{
 	content:'';
@@ -152,9 +119,8 @@ $blue: #7BA2FF;
 	width:260px;
 	height:80px;
 	margin: 0 auto;
-}
 
-.stats .line-1{
+ .line-1{
 	position:absolute;
 	background:#F2F2F2;
 	top:0;
@@ -163,7 +129,7 @@ $blue: #7BA2FF;
 	height:1px;
 }
 
-.stats .line-2{
+ .line-2{
 	position:absolute;
 	background:#F2F2F2;
 	left:0;
@@ -172,7 +138,7 @@ $blue: #7BA2FF;
 	top:40px;
 }
 
-.stats .line-3{
+ .line-3{
 	position:absolute;
 	background:#F2F2F2;
 	left:0;
@@ -180,6 +146,9 @@ $blue: #7BA2FF;
 	height:1px;
 	bottom: 0;
 }
+
+}
+
 
 .data svg{
 	position:absolute;

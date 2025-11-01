@@ -68,7 +68,6 @@
   padding: 10px 0 15px 0;
   text-align: right;
 }
-
 .parameters span {
   position: relative;
   font-size: 10px;
@@ -107,7 +106,6 @@
   height: 80px;
   margin: 0 auto;
 }
-
 .stats .line-1 {
   position: absolute;
   background: #F2F2F2;
@@ -116,7 +114,6 @@
   right: 0;
   height: 1px;
 }
-
 .stats .line-2 {
   position: absolute;
   background: #F2F2F2;
@@ -125,7 +122,6 @@
   height: 1px;
   top: 40px;
 }
-
 .stats .line-3 {
   position: absolute;
   background: #F2F2F2;
