@@ -8,12 +8,11 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #272C34;
   color: #333;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,8 +21,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .circle {
@@ -42,8 +40,7 @@
   right: 0;
   height: 200px;
   z-index: 0;
-  -webkit-animation: animate-sky 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-sky 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  animation: animate-sky 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 .sun {
@@ -55,10 +52,8 @@
   border-radius: 50%;
   position: absolute;
   z-index: 1;
-  -webkit-transform-origin: 50% 400%;
-          transform-origin: 50% 400%;
-  -webkit-animation: animate-sun 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-sun 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  transform-origin: 50% 400%;
+  animation: animate-sun 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 .pyramid-left {
@@ -66,12 +61,10 @@
   background: #F4F4F4;
   height: 60px;
   width: 110px;
-  -webkit-clip-path: polygon(0 100%, 100% 100%, 50% 0);
-          clip-path: polygon(0 100%, 100% 100%, 50% 0);
+  clip-path: polygon(0 100%, 100% 100%, 50% 0);
   top: 80px;
   left: 35px;
-  -webkit-animation: animate-pyramid-left 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-pyramid-left 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  animation: animate-pyramid-left 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 .pyramid-right {
@@ -81,10 +74,8 @@
   top: 80px;
   left: 65px;
   position: absolute;
-  -webkit-clip-path: polygon(30% 100%, 100% 100%, 22% 0);
-          clip-path: polygon(30% 100%, 100% 100%, 22% 0);
-  -webkit-animation: animate-pyramid-right 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-pyramid-right 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  clip-path: polygon(30% 100%, 100% 100%, 22% 0);
+  animation: animate-pyramid-right 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 .shadow {
@@ -95,14 +86,10 @@
   height: 30px;
   width: 360px;
   background: rgba(0, 0, 0, 0.2);
-  -webkit-transform-origin: 50% 0%;
-          transform-origin: 50% 0%;
-  -webkit-clip-path: polygon(110px 0%, 250px 0%, 80% 100%);
-          clip-path: polygon(110px 0%, 250px 0%, 80% 100%);
-  -webkit-animation: shadow-on-the-floor 4s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: shadow-on-the-floor 4s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-  -webkit-animation: animate-shadow 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-shadow 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  transform-origin: 50% 0%;
+  clip-path: polygon(110px 0%, 250px 0%, 80% 100%);
+  animation: shadow-on-the-floor 4s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+  animation: animate-shadow 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 .ground {
@@ -113,23 +100,7 @@
   right: 0;
   position: absolute;
   z-index: 1;
-  -webkit-animation: animate-ground 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-          animation: animate-ground 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
-}
-
-@-webkit-keyframes animate-sky {
-  0% {
-    background: #272C34;
-  }
-  30% {
-    background: #7DDFFC;
-  }
-  70% {
-    background: #7DDFFC;
-  }
-  100% {
-    background: #272C34;
-  }
+  animation: animate-ground 5s cubic-bezier(0.4, 0, 0.49, 1) infinite;
 }
 
 @keyframes animate-sky {
@@ -146,64 +117,23 @@
     background: #272C34;
   }
 }
-
-@-webkit-keyframes animate-sun {
-  0% {
-    background: #F57209;
-    -webkit-transform: rotate(-80deg);
-            transform: rotate(-80deg);
-  }
-  30% {
-    background: #FFEF00;
-    -webkit-transform: rotate(-28deg);
-            transform: rotate(-28deg);
-  }
-  70% {
-    background: #FFEF00;
-  }
-  100% {
-    background: #F57209;
-    -webkit-transform: rotate(80deg);
-            transform: rotate(80deg);
-  }
-}
-
 @keyframes animate-sun {
   0% {
     background: #F57209;
-    -webkit-transform: rotate(-80deg);
-            transform: rotate(-80deg);
+    transform: rotate(-80deg);
   }
   30% {
     background: #FFEF00;
-    -webkit-transform: rotate(-28deg);
-            transform: rotate(-28deg);
+    transform: rotate(-28deg);
   }
   70% {
     background: #FFEF00;
   }
   100% {
     background: #F57209;
-    -webkit-transform: rotate(80deg);
-            transform: rotate(80deg);
+    transform: rotate(80deg);
   }
 }
-
-@-webkit-keyframes animate-pyramid-right {
-  0% {
-    background: #272C34;
-  }
-  30% {
-    background: #F4F4F4;
-  }
-  70% {
-    background: #DDDADA;
-  }
-  100% {
-    background: #272C34;
-  }
-}
-
 @keyframes animate-pyramid-right {
   0% {
     background: #272C34;
@@ -218,80 +148,26 @@
     background: #272C34;
   }
 }
-
-@-webkit-keyframes animate-shadow {
-  0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
-  }
-  30% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
-  }
-  55% {
-    -webkit-transform: scaleY(0.4);
-            transform: scaleY(0.4);
-  }
-  75% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-  }
-  100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
-  }
-}
-
 @keyframes animate-shadow {
   0% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
+    transform: scaleY(0);
+    clip-path: polygon(115px 0%, 231px 0%, 100% 100%);
   }
   30% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
+    transform: scaleY(1);
+    clip-path: polygon(115px 0%, 231px 0%, 80% 100%);
   }
   55% {
-    -webkit-transform: scaleY(0.4);
-            transform: scaleY(0.4);
+    transform: scaleY(0.4);
   }
   75% {
-    -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
   }
   100% {
-    -webkit-transform: scaleY(0);
-            transform: scaleY(0);
-    -webkit-clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
-            clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
+    transform: scaleY(0);
+    clip-path: polygon(115px 0%, 231px 0%, 0% 100%);
   }
 }
-
-@-webkit-keyframes animate-pyramid-left {
-  0% {
-    background: #272C34;
-  }
-  30% {
-    background: #DDDADA;
-  }
-  70% {
-    background: #F4F4F4;
-  }
-  100% {
-    background: #272C34;
-  }
-}
-
 @keyframes animate-pyramid-left {
   0% {
     background: #272C34;
@@ -306,22 +182,6 @@
     background: #272C34;
   }
 }
-
-@-webkit-keyframes animate-ground {
-  0% {
-    background: #272C34;
-  }
-  30% {
-    background: #F0DE75;
-  }
-  70% {
-    background: #F0DE75;
-  }
-  100% {
-    background: #272C34;
-  }
-}
-
 @keyframes animate-ground {
   0% {
     background: #272C34;
@@ -335,5 +195,4 @@
   100% {
     background: #272C34;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

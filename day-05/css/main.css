@@ -8,12 +8,11 @@
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  -webkit-box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background: #42a7a1;
   color: #333;
-  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -25,8 +24,7 @@
   height: 220px;
   width: 280px;
   background: #fff;
-  -webkit-box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   overflow: hidden;
 }
@@ -38,35 +36,29 @@
   width: 100%;
   position: relative;
 }
-
 .header .big {
   position: absolute;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
 }
-
 .header .small {
   position: absolute;
   font-weight: 400;
   font-size: 11px;
 }
-
 .header .title {
   top: 12px;
   left: 15px;
 }
-
 .header .data {
   top: 30px;
   left: 15px;
 }
-
 .header .type {
   top: 12px;
   left: 220px;
 }
-
 .header .value {
   top: 25px;
   left: 200px;
@@ -86,7 +78,7 @@
 }
 
 .red-parameter::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 6px;
@@ -98,7 +90,7 @@
 }
 
 .blue-parameter::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 6px;
@@ -169,8 +161,7 @@
   position: absolute;
   bottom: 13px;
   left: 50%;
-  -webkit-transform: translate3d(-50%, 10px, 0);
-          transform: translate3d(-50%, 10px, 0);
+  transform: translate3d(-50%, 10px, 0);
   background: #fff;
   font-size: 11px;
   font-weight: 600;
@@ -178,14 +169,11 @@
   border-radius: 3px;
   padding: 8px 6px;
   visibility: hidden;
-  -webkit-transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
-  transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
   transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
-  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
 }
 
 .number::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   height: 6px;
@@ -193,11 +181,10 @@
   left: 50%;
   margin-left: -3px;
   bottom: -3px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-[class^="point-"] {
+[class^=point-] {
   position: absolute;
   width: 6px;
   height: 6px;
@@ -205,87 +192,70 @@
   cursor: pointer;
   z-index: 10;
 }
-
-[class^="point-"]:hover .number {
+[class^=point-]:hover .number {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: translate3d(-50%, 0, 0);
-          transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
 }
 
-.data.red [class^="point-"], .data.red .number, .data.red .number::after {
+.data.red [class^=point-], .data.red .number, .data.red .number::after {
   background: #FA7373;
 }
-
 .data.red .point-1 {
   left: 7px;
   top: 43px;
 }
-
 .data.red .point-2 {
   left: 48px;
   top: 9px;
 }
-
 .data.red .point-3 {
   left: 88px;
   top: 20px;
 }
-
 .data.red .point-4 {
   left: 128px;
   top: 8px;
 }
-
 .data.red .point-5 {
   left: 169px;
   top: 35px;
 }
-
 .data.red .point-6 {
   left: 209px;
   top: 45px;
 }
-
 .data.red .point-7 {
   left: 249px;
   top: 16px;
 }
-
-.data.blue [class^="point-"], .data.blue .number, .data.blue .number::after {
+.data.blue [class^=point-], .data.blue .number, .data.blue .number::after {
   background: #7BA2FF;
 }
-
 .data.blue .point-1 {
   left: 7px;
   top: 58px;
 }
-
 .data.blue .point-2 {
   left: 48px;
   top: 47px;
 }
-
 .data.blue .point-3 {
   left: 88px;
   top: 62px;
 }
-
 .data.blue .point-4 {
   left: 128px;
   top: 52px;
 }
-
 .data.blue .point-5 {
   left: 169px;
   top: 58px;
 }
-
 .data.blue .point-6 {
   left: 209px;
   top: 71px;
 }
-
 .data.blue .point-7 {
   left: 249px;
   top: 61px;
@@ -294,15 +264,9 @@
 .week {
   width: 280px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .day {
@@ -310,5 +274,4 @@
   color: #949494;
   line-height: 30px;
   text-transform: uppercase;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -39,40 +39,76 @@ $blue: #7BA2FF;
 	height:60px;
 	width:100%;
 	position:relative;
-}
 
-.header .big{
+
+ .big{
 	position:absolute;
 	font-weight: 600;
 	text-transform:uppercase;
 	font-size:14px;
 }
 
-.header .small{
+ .small{
 	position:absolute;
 	font-weight:400;
 	font-size:11px;
 }
 
-.header .title{
+ .title{
 	top:12px;
 	left:15px;
 }
 
-.header .data{
+ .data{
 	top:30px;
 	left:15px;
 }
 
-.header .type{
+ .type{
 	top: 12px;
 	left:220px;
 }
 
-.header .value{
+ .value{
 	top:25px;
 	left:200px;
 }
+
+
+}
+
+// .header .big{
+// 	position:absolute;
+// 	font-weight: 600;
+// 	text-transform:uppercase;
+// 	font-size:14px;
+// }
+
+// .header .small{
+// 	position:absolute;
+// 	font-weight:400;
+// 	font-size:11px;
+// }
+
+// .header .title{
+// 	top:12px;
+// 	left:15px;
+// }
+
+// .header .data{
+// 	top:30px;
+// 	left:15px;
+// }
+
+// .header .type{
+// 	top: 12px;
+// 	left:220px;
+// }
+
+// .header .value{
+// 	top:25px;
+// 	left:200px;
+// }
 
 .parameters{
 	padding:10px 0 15px 0;
