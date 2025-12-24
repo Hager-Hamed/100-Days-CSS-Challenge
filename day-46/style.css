@@ -1,0 +1,192 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+button {
+	border: none;
+}
+
+.product-card {
+	background-color: #eee;
+	border: 2px solid #333;
+}
+
+.product-card__figure {
+	position: relative;
+	overflow: hidden;
+}
+
+.product-card__image-wrapper {
+}
+
+.product-card__image {
+	width: 100%;
+	display: block;
+}
+
+.product-card__image-wrapper-hovered {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	/* display: none; */
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.product-card__figure:hover .product-card__image-wrapper-hovered {
+	/* display: block; */
+	opacity: 1;
+}
+
+.product-card__select-btn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 8px 16px;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+
+	opacity: 0.8;
+	background-color: #f05a66;
+	cursor: pointer;
+	transform: translateY(100%);
+	transition: transform 0.5s;
+}
+
+.product-card:hover .product-card__select-btn {
+	transform: translateY(0%);
+}
+
+.product-card__select-btn:hover {
+	opacity: 1;
+}
+
+.product-card__select-icon {
+}
+.product-card__text {
+	padding: 10px 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.product-card__name {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.product-card__shop-link {
+}
+.review-list {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.review-list__item {
+}
+.review-list__icon {
+	color: #ccc;
+}
+.review-list__item--active {
+	color: gold;
+}
+.product-card__price {
+}
+
+.container {
+	padding: 0 12px;
+	max-width: 1200px;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+}
+
+.col-2 {
+	width: calc(100% / 6);
+	padding: 24px 12px 0;
+}
+
+.col-4 {
+	width: calc(100% / 3);
+	padding: 24px 12px 0;
+}
+
+.col-3 {
+	width: calc(100% / 4);
+	padding: 24px 12px 0;
+}
+
+.col-6 {
+	width: calc(100% / 2);
+	padding: 24px 12px 0;
+}
+
+.col-12 {
+	width: calc(100%);
+	padding: 24px 12px 0;
+}
+
+.main-heading {
+	background-color: #333;
+	color: White;
+	padding: 20px;
+}
+
+.col {
+	width: calc(100% / 2);
+}
+
+@media screen and (min-width: 600px) {
+	.main-heading {
+		background-color: yellow;
+	}
+
+	.col {
+		width: calc(100% / 3);
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.main-heading {
+		padding: 100px;
+	}
+
+	.col {
+		width: calc(100% / 4);
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+} */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+} */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+} */

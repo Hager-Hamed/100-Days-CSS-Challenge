@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #800ef1;
+}
+
+.main__header {
+  padding-top: 40px;
+  padding-bottom: 35px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 3.75rem;
+  font-family: "Archivo Narrow";
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0 6% 8% 6%;
+}
+
+.Card {
+  width: calc((100% - 4rem) / 3);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.Card__header {
+  font-weight: 800;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.Card__image {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Card__text {
+  font-style: italic;
+  margin: 24px 0;
+  text-align: center;
+  color: #707070;
+}
+
+.Card__link {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  border-bottom: 3px solid #800ef1;
+  font-weight: 700;
+  padding: 3px 0;
+}
+
+footer {
+  background-color: #323332;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #bde0fc;
+}
+
+/* -------------------------media query section----------------------------- */
+
+@media screen and (max-width: 767px) {
+  .Card {
+    width: calc((100% - 0rem) / 1);
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .Card {
+    width: calc((100% - 3rem) / 2);
+  }
+}
