@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    padding: 0;
+    background: #252525;
+    overflow: hidden;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.pulse{
+    width: 100px;
+    height: 100px;
+    background:  #1c857d;
+    color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    animation: pulsing 4s linear infinite;
+}
+
+@keyframes pulsing{
+    0%{
+        box-shadow: 0 0 0 0 rgba(55, 209, 201, 0.7), 0 0 0 0 rgba(24, 153, 104, 0.7);
+    }
+
+    40%{
+        box-shadow: 0 0 0 50px rgba(55, 209, 201,0), 0 0 0 0 rgba(55, 209, 201, .7);
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(55, 209, 201,0), 0 0 0 20px rgba(55, 209, 201, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(55, 209, 201,0), 0 0 0 20px rgba(55, 209, 201, 0);
+    }
+}

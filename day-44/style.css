@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #034d3b;
+}
+
+.texto{
+    font-size: 6rem;
+    text-transform: uppercase;
+    display: flex;
+    cursor: pointer;
+}
+
+span{
+    letter-spacing: 10px;
+    color: rgb(202, 235, 245);
+    font-weight: 700;
+    transition: 2s;
+}
+
+.texto:hover span{
+    opacity: 0;
+    filter: blur(20px);
+    transform: rotate(45deg) translateY(-200px);
+}
+
+.texto span:nth-child(1){
+    transition-delay: 0;
+}
+
+.texto span:nth-child(2){
+    transition-delay: 0.4s;
+}
+
+.texto span:nth-child(3){
+    transition-delay: 0.8s;
+}
+
+.texto span:nth-child(4){
+    transition-delay: 1.2s;
+}
+
+.texto span:nth-child(5){
+    transition-delay: 1.6s;
+}
